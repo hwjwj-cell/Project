@@ -1,0 +1,47 @@
+#form-container {
+  display: grid;
+  grid-template-rows: 20vh repeat(20, 6.5vh);
+  margin: auto;
+  border: 1px solid green;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #66E0FF 20%, #A6FFF2);
+  height: 155vh;
+  width: 100vw;
+}
+
+.Item {
+  border: 1px solid pink;
+  margin: 2.5vh;
+  border-radius: 10px;
+  background-color: #E8FFE8;
+  color: #00E0FF;
+}
+
+#heading {
+  text-align: center;
+  color: black;
+  font-size: 7vh;
+}
+
+#button {
+  background-color: #74F9FF;
+  color: black;
+}
+
+@media (orientation: portrait) {
+  #form-container {
+    grid-template-rows: 20vh repeat(20, 7vh);
+    height:170vh;
+  }
+
+  .Item {
+    margin: 3vh;
+  }
+
+  #heading {
+    font-size: 8vh;  
+  }
+  
+}
