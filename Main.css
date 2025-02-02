@@ -1,0 +1,60 @@
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 16vh 9vh 9vh 9vh 9vh 9vh 9vh 9vh 9vh 9vh 9vh 9vh 9vh;
+  background: linear-gradient(to right, #A6FFF2, #E8FFE8);
+  height:130vh;
+  width:90vh;
+  margin:auto;
+  border:10px solid #00E0FF;
+  box-sizing:border-box;
+}
+
+.item {
+  
+  text-align: center;
+  justify-content: center;
+  color: white;
+  opacity: 0; 
+  font-size:3.2vh;
+  
+}
+
+.item-13{
+  opacity: 1;
+  text-align: center;
+
+color: white;
+font-size:4vh;
+ 
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+
+.item-1 { animation: fade 1s ease-in-out forwards; animation-delay: 0.1s; }
+.item-2 { animation: fade 1s ease-in-out forwards; animation-delay: 1s; }
+.item-3 { animation: fade 1s ease-in-out forwards; animation-delay: 2s; }
+.item-4 { animation: fade 1s ease-in-out forwards; animation-delay: 3s; }
+.item-5 { animation: fade 1s ease-in-out forwards; animation-delay: 4s; }
+.item-6 { animation: fade 1s ease-in-out forwards; animation-delay: 5s; }
+.item-7 { animation: fade 1s ease-in-out forwards; animation-delay: 6s; }
+.item-8 { animation: fade 1s ease-in-out forwards; animation-delay: 7s; }
+.item-9 { animation: fade 1s ease-in-out forwards; animation-delay: 8s; }
+.item-10 { animation: fade 1s ease-in-out forwards; animation-delay: 9s; }
+.item-11 { animation: fade 1s ease-in-out forwards; animation-delay: 10s; }
+.item-12 { animation: fade 1s ease-in-out forwards; animation-delay: 11s; }
